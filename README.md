@@ -13,5 +13,5 @@ The scenarios are tagged with the requirement number that they cover.
 4) Select and run test(s)
 
 ## Obersvations
-- HTTP respons cannot be accessed by Selenium webdriver -> in this requirement I used the title of the page
-- "Go!" button  on the form page cannot be clicked with Selenium -> is used the parent span element as "the button"
+- HTTP response cannot be accessed by Selenium webdriver -> so in this requirement I used the title of the page
+- "Go!" button on the form page cannot be clicked by Selenium -> so I used the parent <span> element as "the button" (otherwise REQ11 test will fail)
